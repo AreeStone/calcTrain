@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnAllNumbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Упражнение для всех чисел" />
+
+    <EditText
+        android:id="@+id/inputNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Введите число от 2 до 9"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnSelective"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Упражнение выборочно" />
+
+</LinearLayout>
